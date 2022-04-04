@@ -39,7 +39,7 @@ h1{
 }
 h3, h6{
     margin: 0;
-    color: #d3d3d3;
+    color: #808080;
 }
 
 h6 {
@@ -56,12 +56,18 @@ ul {
 table {
     border-collapse: collapse;
 }
-thead {
+
+th {
+    text-align: left;
     background-color: #00bfff;
     color: #fff;
 }
-th {
-    text-align: left;
+.bg-blue {
+    background-color: #00ffff;
+}
+
+footer {
+    padding: 5px;
 }
 
 
@@ -80,4 +86,20 @@ th {
     text-align: center;
     width: 20%;
 }
-
+.img-footer {
+    width: 350px;
+    height: 300px;
+    margin: 10px 0;
+    padding-top: 25px;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 25px;
+    background-position: center;
+    background-size: cover;
+}
+.img-1 {
+    background-image: url('../img/monitor.jpg');
+}
+.img-2 {
+    background-image: url('../img/graph.jpg');
+}
