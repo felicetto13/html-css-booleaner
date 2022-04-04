@@ -46,15 +46,24 @@ h6 {
     margin-bottom: 20px;
 }
 
-figure{
+figure {
     margin: 5px;
 }
-p {
-    margin: 20px 0px;
-}
-ul{
+ul {
     padding-left: 15px;
+    margin-bottom: 20px;
 }
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: #00bfff;
+    color: #fff;
+}
+th {
+    text-align: left;
+}
+
 
 
 /* end tag selectors */
@@ -64,3 +73,11 @@ ul{
 .blue-text {
     color:#00bfff;
 }
+.top-bottom-margin{
+    margin: 20px 0;;
+}
+.text-center-spacing{
+    text-align: center;
+    width: 20%;
+}
+
