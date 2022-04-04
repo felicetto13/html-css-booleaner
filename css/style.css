@@ -1,16 +1,58 @@
+/* tag selectors */
 body {
     margin: 0;
 }
 
 /* header style */
+
 header {
     height: 200px;
     background-color: #00bfff;
     background-image: url('../img/pattern.png');
     position: relative;
+    padding: 5px;
 }
 header img {
     width: 250px;
     position:absolute;
     bottom: 0;
+}
+
+/* main style */
+
+main{
+    padding: 5px;
+}
+
+main img{
+    height: 650px;
+    width: 47%;
+}
+
+h1{
+    font-size: 65px;
+    margin: 0;
+    margin-top: 20px;
+}
+h3, h6{
+    margin: 0;
+    color: #d3d3d3;
+}
+
+h6 {
+    margin-bottom: 20px;
+}
+
+figure{
+    margin: 5px;
+}
+
+
+
+/* end tag selectors */
+
+/* class style */
+
+.blue-text {
+    color:#00bfff;
 }
