@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+/* header style */
+header {
+    height: 200px;
+    background-color: #00bfff;
+    background-image: url('../img/pattern.png');
+    position: relative;
+}
+header img {
+    width: 250px;
+    position:absolute;
+    bottom: 0;
+}
